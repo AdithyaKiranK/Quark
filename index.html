@@ -1,0 +1,25 @@
+<html>
+    <head> 
+        <link rel="stylesheet" href="assets/css/main.css"> 
+    </head>
+<body>
+    
+    <script src='assets/js/sidebarButtons.js'></script>
+    <script src='assets/js/jquery-3.2.1.js'></script>
+    <script>window.$ = window.jQuery = require('./assets/js/jquery-3.2.1.js');</script>
+    
+    <h1 id="appHeader">
+        <img class="titleImg" src='assets/images/title.png'/>
+    </h1>
+    
+    <section >
+    <div class="sidebarList">
+        <button id="addButton" class="sidebar" onclick="addButtonHandler();"></button>
+        <button id="deviceButton" class="sidebar" onclick="deviceButtonHandler();"></button>
+    </div>
+    </section>
+    
+    <div id="selectedPage">
+    </div>
+</body>
+</html>

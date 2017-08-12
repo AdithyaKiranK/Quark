@@ -1,0 +1,640 @@
+<html>
+    <head> 
+        <link rel="stylesheet" href="assets/css/device.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+<body>
+    
+    <script src='assets/js/sidebarButtons.js'></script>
+    
+    <div class="sidebarOption">
+        
+        <ul>
+        <li><a href="#rms">RMS</a></li>
+        <li><a href="#energy">Energy</a></li>
+        <li><a href="#demand">Demand</a></li> 
+        <li><a href="#harmonics">Harmonics</a></li> 
+        <li><a href="#relay">Relay</a></li> 
+        <li><a href="#setup">Setup</a></li> 
+        </ul>
+        
+    </div>
+    
+    <div class="headerDivider"></div>
+    
+    <div class="dashBoard">
+    <div>
+        <table id="rmsTable">
+            <thead>
+                <tr id="rms">
+                    <th>Tag</th>
+                    <th>Register</th>
+                    <th>Present</th>
+                    <th>Minimum</th>
+                    <th>Maximum</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                //Added rows
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current A</td>
+                    <td>3000</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current B</td>
+                    <td>3002</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current C</td>
+                    <td>3004</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current N</td>
+                    <td>3006</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current G</td>
+                    <td>3008</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr>
+                    <td>Current Avg</td>
+                    <td>3010</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+                <tr id="energy">
+                    <td>Energy delivered</td>
+                    <td>2999</td>
+                    <td>5.3</td>
+                    <td>3.3</td>
+                    <td>7.3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    
+</body>
+</html>
