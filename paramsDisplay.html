@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bs337/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/paramsDisplay.css"> 
+    </head>
+<body>
+    
+    <script src='assets/js/jquery-3.2.1.js'></script>
+    <script>window.$ = window.jQuery = require('./assets/js/jquery-3.2.1.js');</script>
+    <script src='assets/js/paramsDisplay.js'></script>
+    <script src='assets/js/tableBuilder.js'></script>
+    
+    <section id="everything">
+    <div class="sidebarOption">
+        <div id="localDevListContainer">
+            <ul id="localDevList">
+            </ul>
+        </div>
+        
+        <div id="deviceOptionsContainer">
+            <h1 id="devMenuTitle">No device selected</h1>
+            <ul id="deviceOptions">
+                <li><a href="#rms">RMS</a></li>
+                <li><a href="#energy">Energy</a></li>
+                <li><a href="#demand">Demand</a></li> 
+                <li><a href="#harmonics">Harmonics</a></li> 
+                <li><a href="#relay">Relay</a></li> 
+                <li><a href="#setup">Setup</a></li> 
+            </ul>
+        </div>
+    </div>
+    
+<!--    <div class="headerDivider"></div>-->
+    
+    <div class="dashBoard">
+    <div class="table-wrapper">
+        <table>
+            
+        </table>
+        <table id="rmsTable">
+            <thead>
+                <tr id="header-fixed">
+                    <th>Tag</th>
+                    <th>Register</th>
+                    <th>Datatype</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            
+            <tbody id="regTable">
+                
+            </tbody>
+        </table>
+        <img id="loaderGif" src="assets/images/loader.gif">
+    </div>
+    </div>
+    </section>  
+</body>
+</html>

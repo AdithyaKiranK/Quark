@@ -1,0 +1,160 @@
+body {
+    width:800px;
+    height:600px;
+    overflow-x: hidden;
+    
+}
+
+.dropdown-menu {
+    width:200px !important;    
+}
+
+.btn{
+ width: 200px;
+}
+
+.headerLabel {
+    z-index: 1;
+    color:#FFFFFF;
+    position:absolute;
+    width:200px;
+    height:55px;
+    left:42%;
+    top:8%;
+    font-size:18px;
+}
+
+.hdivider {
+    position:absolute;
+    width:2000px;
+    height:90px;
+    background-color:#3dcd58;
+    border-bottom: 2px solid #3dcd58;
+    top:0%;
+}
+
+#deviceName {
+    position:absolute;
+    top:20%; 
+    left:32%;
+    width:200px;
+}
+
+#deviceList {
+    position:absolute;
+    top:30%; 
+    left:36%;
+}
+
+#intfListDiv {
+    position:absolute;
+    top:40%;
+    left:36%;
+}
+
+#unitIDpicker {
+    position:absolute;
+    top:50%;
+    left:36%;
+    width:200px;
+}
+
+.baudratelist{
+    position:fixed;
+    top:60%;
+    left:30%; 
+    width:400px;
+}
+
+.baudratelist ul li {
+    display:inline-block;
+    margin:-5px;
+}
+
+.baudratelist ul li img {
+    display: inline;
+    width:5px;
+    height:50px;
+}
+
+.baudratelist ul li a {
+    text-decoration:none;
+    color:#6c6e72;
+}
+
+.baudratelist ul li a:hover {
+   color:#3dcd58;
+}
+
+.paritylist{
+    position:fixed;
+    top:70%;
+    left:34%;
+    width:400px;
+}
+
+.paritylist ul li {
+    display:inline-block;
+    margin:-5px;
+}
+
+.paritylist ul li img {
+    display: inline;
+    width:5px;
+    height:50px;
+}
+
+.paritylist ul li a {
+    text-decoration:none;
+    color:#6c6e72;
+}
+
+.paritylist ul li a:hover {
+   color:#3dcd58;
+}
+
+#ipField {
+    position:absolute;
+    top:80%;
+    left:36%;
+    width:400px;
+}
+
+#ipPikr {
+    width:135px;
+    margin-left:30px !important;
+}
+
+.fieldLabel {
+    font-weight: normal !important;
+}
+
+.form-control {
+    margin-left: 30px;
+}
+
+.dropdown > .btn > .caret {
+  float: right;
+    margin: 6px 0;
+}
+
+#submitButton {
+    width:90px;
+    background-color:#3dcd58;
+    color:white;
+    position:absolute;
+    left:36%;
+    top:90%;
+}
+
+#cancelButton {
+    width:90px;
+    color:white;
+    background-color:#6c6e72;
+    position:absolute;
+    left:50%;
+    top:90%;
+}
+
+
+

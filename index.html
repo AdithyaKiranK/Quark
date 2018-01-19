@@ -1,6 +1,7 @@
 <html>
     <head> 
-        <link rel="stylesheet" href="assets/css/main.css"> 
+        <link rel="stylesheet" href="bs337/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/index.css"> 
     </head>
 <body>
     
@@ -8,18 +9,26 @@
     <script src='assets/js/jquery-3.2.1.js'></script>
     <script>window.$ = window.jQuery = require('./assets/js/jquery-3.2.1.js');</script>
     
-    <h1 id="appHeader">
-        <img class="titleImg" src='assets/images/title.png'/>
-    </h1>
-    
-    <section >
-    <div class="sidebarList">
-        <button id="addButton" class="sidebar" onclick="addButtonHandler();"></button>
-        <button id="deviceButton" class="sidebar" onclick="deviceButtonHandler();"></button>
+    <div id="headerBar" class="mainpage">
+        <p id="headerBarText">Quark</p>
+        <img class="taskBarIcons" id="exitIcon" src="assets/icons/selected-pack/exit.png">
+        <img class="taskBarIcons" id="resizeIcon" src="assets/icons/selected-pack/resize.png">
+        <img class="taskBarIcons" id="minimizeIcon" src="assets/icons/selected-pack/minimize.png">
     </div>
-    </section>
     
-    <div id="selectedPage">
+    <div id="appImage">
+        <img class="titleImg" src="assets/images/Qicon.png">
+    </div>
+    
+    <div class="sidebarList mainpage">
+        <button id="addButton" class="sidebar mainpage" onclick="addButtonHandler();"></button>
+        <button id="deviceButton" class="sidebar mainpage" onclick="deviceButtonHandler();"></button>
+        <button id="settingsButton" class="sidebar mainpage" onclick="setupButtonHandler();"></button>
+        <button id="graphButton" class="sidebar mainpage" onclick="graphButtonHandler();"></button>
+        <button id="diagButton" class="sidebar mainpage" onclick="diagButtonHandler();"></button>
+    </div>
+    
+    <div id="selectedPage" class="mainpage">
     </div>
 </body>
 </html>

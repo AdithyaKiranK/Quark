@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bs337/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/deviceConfiguration.css"> 
+    </head>
+<body>
+    
+    <script src='assets/js/jquery-3.2.1.js'></script>
+    <script>window.$ = window.jQuery = require('./assets/js/jquery-3.2.1.js');</script>
+    <script src='assets/js/deviceConfiguration.js'></script>
+    <script src="bs337/js/bootstrap.min.js"></script>
+    
+    <section id="everything">
+        <div id="localDevListContainer">
+            <ul id="localDevList">
+                <li><a href="#">Basic Setup</a></li>
+<!--
+                <li><a href="#">Advanced Setup</a></li>
+                <li><a href="#">Demand Setup</a></li>
+                <li><a href="#">I/O Setup</a></li>
+                <li><a href="#">Multitariff Setup</a></li>
+                <li><a href="#">Communication Setup</a></li>
+                <li><a href="#">Data Log</a></li>
+                <li><a href="#">Phase Viewer</a></li>
+                <li><a href="#">Meter Reset</a></li>
+                <li><a href="#">Alarm</a></li>
+                <li><a href="#">Meter Model Name</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Clock</a></li>
+-->
+            </ul>
+        </div>
+        
+
+        <div id="setupPage">
+            
+            <form class="form-group" id="commandForm">
+                        <h1>Choose a setup form</h1>
+                
+                    <div class="form-group" id="formController">
+                        <!-- DROPDOWN TEMPLATE -->
+                        <div>
+                            <div class="dropdown" id="frequencyList">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" id="frequencyListButton">Frequency  <span class="caret">  </span></button>
+                                <div class="form-inline">
+                                     <label for="#frqList"> Operating frequency </label>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="frqList" id="frqList">
+                                        <li class="dropdown" role="presentation"><a href="#" class="listItem">50 Hz  </a></li>
+                                        <li class="dropdown" role="presentation"><a href="#" class="listItem">60 Hz  </a></li>
+                                    </ul> 
+                                </div>
+                            </div>
+                         </div>   
+                        
+                         <div>
+                            <div class="dropdown" id="wiringConfigList">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" id="wiringListButton">Wiring  <span class="caret">  </span></button>
+                                <div class="form-inline">
+                                     <label for="#wiringList"> Wiring configuration </label>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="wiringList" id="wiringList">
+                                        <li class="dropdown" role="presentation"><a href="#" class="listItem">1P-LN  </a></li>
+                                        <li class="dropdown" role="presentation"><a href="#" class="listItem">1P-LL  </a></li>
+                                        <li class="dropdown" role="presentation"><a href="#" class="listItem">1P-3L  </a></li>
+                                        <li class="dropdown" role="presentation"><a href="#" class="listItem">3P-4L  </a></li>
+                                    </ul> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,166 @@
+body { 
+    margin: 0; 
+    overflow-x: hidden;
+    
+    overflow-y:hidden;
+}
+
+.mainpage {
+    display: none;
+}
+
+#headerBar {
+    width:auto;
+    height:34px;
+    background-color:#000000;
+    left:-2%;
+    margin-bottom: none;
+}
+
+#headerBarImg {
+    position:fixed;
+    left:5%;
+    top:5px;  
+}
+
+.taskBarIcons {
+    width:25px;
+    height:25px;
+    float:right;
+    position:relative;
+    top:-54%;
+    
+}
+
+.taskBarIcons:hover {
+    filter:invert();
+    transition: 1s;
+}
+
+#exitIcon {
+    right:20px;
+}
+
+#resizeIcon {
+    right:45px;
+}
+
+#minimizeIcon {
+    right:70px;
+}
+
+
+#headerBarText {
+    color:white;
+    font-family: Arial;
+    font-size:12px;
+    top:25%;
+    left:20px;
+    position:relative;
+}
+
+.titleImg {
+    color:#3dcd58;
+    position:fixed;
+    float:left;
+    left:0%;
+    top:0%;
+    width:600px;
+    height:600px;
+}
+
+#appImage {
+    width:100px;
+    height:100px;
+    top:0%;
+    position:inherit;
+    padding:none;
+}
+
+#appHeader {
+    font-size: 50px; 
+    top:1%;
+}
+
+#schneiderTitle {
+    font-size: 16px;
+    font-kerning:normal; 
+    top:10%;
+}
+
+.sidebarList {
+    top:0%;
+    display: table;
+    width:80px;
+    height:400px;
+}
+
+.sidebar {
+    background-color:#FFFFFF;
+    border:none;
+    color:none;
+    width:70;
+    height:70;
+    float:left;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    transition-duration: 0.2s;
+    outline: none;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.sidebar:hover {
+     filter:brightness(115%);
+}
+
+#addButton {
+    background-image: url(../icons/selected-pack/add.png);
+}
+
+#deviceButton {
+    background-image: url(../icons/selected-pack/devices.png);
+    top:13%;
+    left:0%;
+}
+
+#settingsButton {
+    background-image: url(../icons/selected-pack/settings.png);
+    top=26%;
+    left:0%;
+}
+
+#graphButton {
+    background-image: url(../icons/selected-pack/graphs.png);
+    top=39%;
+    left:0%;
+}
+
+#diagButton {
+    background-image: url(../icons/selected-pack/diagnostics.png);
+    top=52%;
+    left:0%;
+}
+
+#selectedBar {
+    background-image: url(../icons/selected-pack/highlightBar.png);
+    width:6;
+    height:80;
+    position:absolute;
+    top:21%;
+    left:10%;
+    visibility: hidden;
+}
+
+#selectedPage {
+    font-family: 'Arial', sans-serif, 'Arial';
+    font-weight: 300;
+    color: #6c6e72;
+    position:absolute;
+    left:5%;
+    right:10%;
+    top:4.2%;
+    display:none;
+}
+
+

@@ -1,0 +1,51 @@
+{
+    "devicesMasterList": [
+        {
+            "name":"EM64XXH",
+            "interfaces":["Serial"],
+            "defaultSerialSetup": {
+                "unitId":1,
+                "baudRate":19200,
+                "dataBits":8,
+                "stopBits":1,
+                "parity":"E"
+            },
+            "defaultInterface":"Serial",
+            "deviceSelection":"ENABLED"
+        },
+
+        {
+            "name":"PM5XXX",
+            "interfaces":["Serial","Ethernet"],
+            "defaultSerialSetup": {
+                "unitId":1,
+                "baudRate":19200,
+                "dataBits":8,
+                "stopBits":1,
+                "parity":"E"
+            },
+            "defaultEthernetSetup": {
+                "ipAddress":"169.254.1.2"
+            }, 
+            "defaultInterface":"Serial",
+            "deviceSelection":"DISABLED"
+        },
+        
+        {
+            "name":"PM2XXX",
+            "interfaces":["Serial","Ethernet"],
+            "defaultSerialSetup": {
+                "unitId":1,
+                "baudRate":19200,
+                "dataBits":8,
+                "stopBits":1,
+                "parity":"E"
+            },
+            "defaultEthernetSetup": {
+                "ipAddress":"169.254.1.2"
+            }, 
+            "defaultInterface":"Serial",
+            "deviceSelection":"DISABLED"
+        }
+    ]
+}

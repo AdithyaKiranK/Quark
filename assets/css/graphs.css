@@ -1,0 +1,15 @@
+#canvasSpace {
+    position:fixed;
+    width:500px;
+    height:500px;
+}
+
+#myChart {
+    
+}
+
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

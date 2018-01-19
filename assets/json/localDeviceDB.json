@@ -1,0 +1,1 @@
+{"name":"PM5500","device":"PM5XXX","iface":"Ethernet","ip":"169.254.1.10"},{"name":"dev","device":"PM5XXX","iface":"Serial","id":"4","baudrate":"19200","parity":"E"},

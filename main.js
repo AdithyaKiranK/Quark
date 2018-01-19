@@ -10,13 +10,15 @@ let mainWindow
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 1281, height: 800, minWidth: 1281, minHeight: 800, title:"Quark", icon: "./assets/icons/selected-pack/quarkappmain.png" })
+  mainWindow = new BrowserWindow({width: 600, height: 600, minWidth: 600, minHeight: 600, title:"Quark", icon: "./assets/images/Qtaskbaricon.png", frame: false })
 
   // and load the index.html of the app.
   mainWindow.loadURL(`file://${__dirname}/index.html`)
+    
+  //mainWindow.maximize();
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  //mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {

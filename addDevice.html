@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="bs337/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/addDevice.css">
+    </head>
+<body>
+    <script src='assets/js/jquery-3.2.1.js'></script>
+    <script>window.$ = window.jQuery = require('./assets/js/jquery-3.2.1.js');</script>
+    <script src="bs337/js/bootstrap.min.js"></script>
+    <script src='assets/js/addDevicePage.js'></script> 
+
+    <div id="headerCover"></div>
+<!--    <img src="assets/images/addDeviceHeader.png" class="img-fluid" alt="Add device" id="headerImg">-->
+    <label class="fieldLabel headerLabel">Add a device</label>
+    <div class="hdivider"></div>
+    
+    <input class="form-control" type="text" placeholder="Enter a name" id="deviceName" maxlength="8">
+    
+  <div class="dropdown" id="deviceList">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" id="devListButton">Devices
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="deviceSelectionList" id="deviceSelectionList">
+    </ul>  
+  </div>
+
+  <div class="dropdown" id="intfListDiv">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" id="intfListButton">Interfaces
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="intfList" id="intfList">
+    </ul>
+  </div>
+    
+<form class="form-inline">
+  <div class="form-group" id="unitIDpicker">
+      <label for="unitIDpikr" class="fieldLabel">Modbus ID</label>
+      <input class="form-control" type="number" value="1" id="unitIDpikr" min=1 max=247>
+  </div>
+</form>
+
+<form class="form-inline">
+  <div class="form-group" id="ipField">
+    <label for="ipPikr" class="fieldLabel">IPv4</label>
+    <input class="form-control" type="text" value="169.254.1.10" id="ipPikr">
+  </div>
+</form>
+
+<form class="form-inline baudratelist">
+    <ul>
+        <li><a class="col-sm-1 text-center baudrate" href="#" id="4k8baud">4800</a></li>
+        <li><img src="assets/images/verticalDivider.png"/></li>
+        <li><a class="col-sm-1 text-center baudrate" href="#" id="9k6baud">9600</a></li>
+        <li><img src="assets/images/verticalDivider.png"/></li>
+        <li><a class="col-sm-1 text-center baudrate" href="#" id="19k2baud">19200</a></li>
+        <li><img src="assets/images/verticalDivider.png"/></li>
+        <li><a class="col-sm-1 text-center baudrate" href="#" id="38k4baud">38400</a></li>
+    </ul>
+</form>
+    
+<form class="form-inline paritylist">
+    <ul>
+        <li><a class="col-sm-1 text-center parity" href="#" id="oddParity">8O1</a></li>
+        <li><img src="assets/images/verticalDivider.png"/></li>
+        <li><a class="col-sm-1 text-center parity" href="#" id="evenParity">8E1</a></li>
+        <li><img src="assets/images/verticalDivider.png"/></li>
+        <li><a class="col-sm-1 text-center parity" href="#" id="noParity">8N1</a></li>
+    </ul>
+</form>
+    
+<form class="form-inline">
+  <div class="form-group" id="ipField">
+    <label for="ipPikr" class="fieldLabel">IPv4</label>
+    <input class="form-control" type="text" value="169.254.1.10" id="ipPikr">
+  </div>
+</form>
+    
+<form class="form-inline">
+  <div class="form-group" id="submitButtons">
+       <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" id="submitButton">Submit</button>
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" id="cancelButton">Cancel</button>
+  </div>
+</form>
+
+</body>
+</html>

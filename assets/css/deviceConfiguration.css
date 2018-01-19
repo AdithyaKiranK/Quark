@@ -1,0 +1,81 @@
+
+body {
+}
+
+#localDevListContainer {
+    float:left;
+    left:15px;
+    width:240px;
+    height:800px;
+    position:relative;
+    background-color:#E2E2E2;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+    
+#localDevList {
+/*    No bullets */
+    list-style: none;
+}
+
+#localDevList li {
+    /*    White background */
+    background-color:white;
+    /*    Spacing of list elements */
+    padding:25px 0px 25px 0px;
+    /*      T    R    B    L    */
+    margin:2px 30px 2px -30px;
+    width:200px;
+}
+
+#localDevList li a {
+/*    Fonts in list */
+    font-family:"Arial", sans-serif, "Arial";
+    font-size: 16px;
+    font-weight: 300;
+    color:#3dcd58;
+
+/*    No underlining links */
+    text-decoration: none;
+    
+/*    Text padding */
+    padding-left: 30px;
+   
+}
+
+#setupPage {
+    position:relative;
+}
+
+#setupPage h1 {
+    position:relative;
+    left:-6.5%;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    position: fixed;
+    left: 24%;
+    top: 5%;
+}
+
+.btn {
+    width:100px;
+}
+
+label {
+    font-size:8px;
+    padding-top:10px;
+}
+
+#frequencyList {
+    position: relative;
+    float: left;
+    top: 100;
+}
+
+#wiringConfigList {
+    position: relative;
+    float: left;
+    top: 110;
+}
